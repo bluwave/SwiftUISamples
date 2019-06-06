@@ -10,7 +10,17 @@ import SwiftUI
 
 struct SampleList : View {
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List {
+                NavigationButton(destination: CircleProgressViewDemo()) {
+                    Text("ProgressCircleView")
+                }
+
+                NavigationButton(destination: EmptyView()) {
+                    Text("Horizontal Menu")
+                }
+            }
+        }
     }
 }
 

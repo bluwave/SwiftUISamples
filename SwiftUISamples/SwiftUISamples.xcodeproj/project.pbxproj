@@ -14,6 +14,8 @@
 		3B1DFF4522A8DCF900A4C1E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1DFF4422A8DCF900A4C1E4 /* Preview Assets.xcassets */; };
 		3B1DFF4822A8DCF900A4C1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1DFF4622A8DCF900A4C1E4 /* LaunchScreen.storyboard */; };
 		3B1DFF5322A8DCF900A4C1E4 /* SwiftUISamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DFF5222A8DCF900A4C1E4 /* SwiftUISamplesTests.swift */; };
+		3B1DFF5F22A8DF8C00A4C1E4 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DFF5E22A8DF8C00A4C1E4 /* CircleProgressView.swift */; };
+		3B1DFF6222A8DFE600A4C1E4 /* CircleProgressViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DFF6122A8DFE600A4C1E4 /* CircleProgressViewDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		3B1DFF4E22A8DCF900A4C1E4 /* SwiftUISamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1DFF5222A8DCF900A4C1E4 /* SwiftUISamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISamplesTests.swift; sourceTree = "<group>"; };
 		3B1DFF5422A8DCF900A4C1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1DFF5E22A8DF8C00A4C1E4 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		3B1DFF6122A8DFE600A4C1E4 /* CircleProgressViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressViewDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		3B1DFF3A22A8DCF800A4C1E4 /* SwiftUISamples */ = {
 			isa = PBXGroup;
 			children = (
+				3B1DFF6022A8DFD400A4C1E4 /* Demos */,
+				3B1DFF5D22A8DF7300A4C1E4 /* Samples */,
 				3B1DFF3B22A8DCF800A4C1E4 /* AppDelegate.swift */,
 				3B1DFF3D22A8DCF800A4C1E4 /* SceneDelegate.swift */,
 				3B1DFF3F22A8DCF800A4C1E4 /* SampleList.swift */,
@@ -105,6 +111,22 @@
 				3B1DFF5422A8DCF900A4C1E4 /* Info.plist */,
 			);
 			path = SwiftUISamplesTests;
+			sourceTree = "<group>";
+		};
+		3B1DFF5D22A8DF7300A4C1E4 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				3B1DFF5E22A8DF8C00A4C1E4 /* CircleProgressView.swift */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		3B1DFF6022A8DFD400A4C1E4 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				3B1DFF6122A8DFE600A4C1E4 /* CircleProgressViewDemo.swift */,
+			);
+			path = Demos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B1DFF3C22A8DCF800A4C1E4 /* AppDelegate.swift in Sources */,
+				3B1DFF5F22A8DF8C00A4C1E4 /* CircleProgressView.swift in Sources */,
+				3B1DFF6222A8DFE600A4C1E4 /* CircleProgressViewDemo.swift in Sources */,
 				3B1DFF3E22A8DCF800A4C1E4 /* SceneDelegate.swift in Sources */,
 				3B1DFF4022A8DCF800A4C1E4 /* SampleList.swift in Sources */,
 			);
